@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+  .main{
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .main .page-1{
+    height: 54vh;
+    width: 100vw;
+    background-color: red;
+  }
+
+  #page-1-img{
+    
+        height: 54vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+
+    .page-1-content{
+        position: absolute;
+        top: 11%;
+        left: 27%;
+    }
+
+    .page1-h1 , .page1-para{
+        color: white;
+        font-weight: 490;
+        
+    }
+
+    .page1-h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        
+    }
+
+    .page1-para{
+        font-size: medium;
+    }
+
+    .page1-btn1{
+        padding: 11px 55px;
+        border-radius: 5px;
+        color: white;
+        background-color: #0366D6;
+        margin-right: 10px;
+        
+    }
+
+    .page1-btn2{
+        padding: 10px 50px;
+        border-radius: 5px;
+        color: black;
+        background-color: white;
+        
+    }
+
+    .page1-contect{
+        font-size: small;
+        color: white;
+    }
+
+    .page1-card{
+        height: 46vh;
+        width: 41vw;
+        background-color: white;
+        margin-top: 8%;
+        border-radius: 6px;
+        position: absolute;
+    }
+
+    .page1-card-h1{
+        position: relative;
+        font-weight: 450;
+        font-size: 28px;
+        top: 14%;
+        left: 20%;
+
+    }
+
+    .page1-card-h5{
+        font-weight: 300;
+        position: relative;
+        top: 16%;
+        left: 27%;
+
+    }
